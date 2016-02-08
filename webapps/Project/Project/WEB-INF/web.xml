@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+       
+   <servlet>
+      <servlet-name>LoginController</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.LoginController</servlet-class>
+   </servlet>
+    
+   <servlet>
+      <servlet-name>LogoutController</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.LogoutController</servlet-class>
+   </servlet>
+   <servlet>
+      <servlet-name>PrepareReadControllerProizvodjac</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.PrepareReadControllerProizvodjac</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>PrepareCreateControllerProizvodjac</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.PrepareCreateControllerProizvodjac</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>CreateControllerProizvodjac</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.CreateControllerProizvodjac</servlet-class>
+   </servlet>
+   
+   
+   <servlet>
+      <servlet-name>ReadControllerModeli</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.ReadControllerModeli</servlet-class>
+   </servlet>
+       
+   <servlet>
+      <servlet-name>DeleteControllerAutomobili</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.DeleteControllerAutomobili</servlet-class>
+   </servlet>
+          
+   <servlet>
+      <servlet-name>DeleteControllerKorisnik</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.DeleteControllerKorisnik</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>UpdateControllerAutomobili</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.UpdateControllerAutomobili</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>PrepareUpdateControllAutomobili</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.PrepareUpdateControllAutomobili</servlet-class>
+   </servlet>
+    
+   <servlet>
+      <servlet-name>PrepereUpdateControllerKorisnik</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.PrepereUpdateControllerKorisnik</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>PrepareUpdateKorisnikLozinka</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.PrepareUpdateKorisnikLozinka</servlet-class>
+   </servlet>
+   
+      
+   <servlet>
+      <servlet-name>PrepareCreateControllerKorisnik</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.PrepareCreateControllerKorisnik</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>PrepareCreateControllAutomobil</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.PrepareCreateControllAutomobil</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>CreateControllerKorisnik</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.CreateControllerKorisnik</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>UpdateKorisnikLozinka</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.UpdateKorisnikLozinka</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>UpdateControllerKorisnik</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.UpdateControllerKorisnik</servlet-class>
+   </servlet>
+   
+   <servlet>
+       <servlet-name>ReadControllerRegistrujSe</servlet-name>
+       <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.ReadControllerRegistrujSe</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>CreateControllerAutomobil</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.CreateControllerAutomobil</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>ReadControllerIndex</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.ReadControllerIndex</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>ReadControllerEbooks</servlet-name>
+      <servlet-class>rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.servlet.ReadControllerEbooks</servlet-class>
+   </servlet>
+
+   <servlet-mapping>
+      <servlet-name>LogoutController</servlet-name>
+      <url-pattern>/LogoutController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>DeleteControllerAutomobili</servlet-name>
+      <url-pattern>/DeleteControllerAutomobili</url-pattern>
+   </servlet-mapping>  
+      
+   <servlet-mapping>
+      <servlet-name>ReadControllerModeli</servlet-name>
+      <url-pattern>/ReadControllerModeli</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>PrepareCreateControllerProizvodjac</servlet-name>
+      <url-pattern>/PrepareCreateControllerProizvodjac</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet-mapping>
+      <servlet-name>UpdateControllerAutomobili</servlet-name>
+      <url-pattern>/UpdateControllerAutomobili</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>DeleteControllerKorisnik</servlet-name>
+      <url-pattern>/DeleteControllerKorisnik</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>PrepareUpdateControllAutomobili</servlet-name>
+      <url-pattern>/PrepareUpdateControllAutomobili</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>PrepareReadControllerProizvodjac</servlet-name>
+      <url-pattern>/PrepareReadControllerProizvodjac</url-pattern>
+   </servlet-mapping>
+      
+   <servlet-mapping>
+      <servlet-name>PrepereUpdateControllerKorisnik</servlet-name>
+      <url-pattern>/PrepereUpdateControllerKorisnik</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>PrepareUpdateKorisnikLozinka</servlet-name>
+      <url-pattern>/PrepareUpdateKorisnikLozinka</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>CreateControllerProizvodjac</servlet-name>
+      <url-pattern>/CreateControllerProizvodjac</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>PrepareCreateControllerKorisnik</servlet-name>
+      <url-pattern>/PrepareCreateControllerKorisnik</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>PrepareCreateControllAutomobil</servlet-name>
+      <url-pattern>/PrepareCreateControllAutomobil</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>UpdateControllerKorisnik</servlet-name>
+      <url-pattern>/UpdateControllerKorisnik</url-pattern>
+   </servlet-mapping>
+   
+      
+   <servlet-mapping>
+      <servlet-name>UpdateKorisnikLozinka</servlet-name>
+      <url-pattern>/UpdateKorisnikLozinka</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>ReadControllerRegistrujSe</servlet-name>
+      <url-pattern>/ReadControllerRegistrujSe</url-pattern>
+   </servlet-mapping>
+   
+    <servlet-mapping>
+      <servlet-name>CreateControllerAutomobil</servlet-name>
+      <url-pattern>/CreateControllerAutomobil</url-pattern>
+   </servlet-mapping>
+      
+    <servlet-mapping>
+      <servlet-name>CreateControllerKorisnik</servlet-name>
+      <url-pattern>/CreateControllerKorisnik</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet-mapping>
+      <servlet-name>LoginController</servlet-name>
+      <url-pattern>/LoginController</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>ReadControllerIndex</servlet-name>
+      <url-pattern>/ReadControllerIndex</url-pattern>
+   </servlet-mapping>
+   
+      <servlet-mapping>
+      <servlet-name>ReadControllerEbooks</servlet-name>
+      <url-pattern>/ReadControllerEbooks</url-pattern>
+   </servlet-mapping>
+   
+   <welcome-file-list>
+   		<welcome-file>/login.jsp</welcome-file>
+   </welcome-file-list>
+   <error-page>
+		<exception-type>
+			java.lang.Throwable
+		</exception-type>
+		<location>/error.jsp</location>
+   </error-page>
+   <error-page>
+   		<error-code>404</error-code>
+   		<location>/404.jsp</location>
+   </error-page> 
+
+</web-app>

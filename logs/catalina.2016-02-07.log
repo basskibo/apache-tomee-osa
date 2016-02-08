@@ -1,0 +1,123 @@
+Feb 07, 2016 11:16:48 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\Users\BOJAN\Desktop\apache-tomee-webprofile-1.5.1 - OSA\webapps\Project
+Feb 07, 2016 11:16:51 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: C:\Users\BOJAN\Desktop\apache-tomee-webprofile-1.5.1 - OSA\webapps\Project.ear
+Feb 07, 2016 11:16:51 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: C:\Users\BOJAN\Desktop\apache-tomee-webprofile-1.5.1 - OSA\webapps\Project
+Feb 07, 2016 11:16:51 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: C:\Users\BOJAN\Desktop\apache-tomee-webprofile-1.5.1 - OSA\webapps\Project\Project.war
+Feb 07, 2016 11:16:52 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: C:\Users\BOJAN\Desktop\apache-tomee-webprofile-1.5.1 - OSA\webapps\Project\Project
+Feb 07, 2016 11:16:52 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.deployments.classpath.filter.systemapps=false'
+Feb 07, 2016 11:16:52 PM org.apache.openejb.config.DeploymentsResolver processUrls
+INFO: Found EjbModule in classpath: c:\users\bojan\desktop\apache-tomee-webprofile-1.5.1 - osa\webapps\project\project.jar
+Feb 07, 2016 11:16:52 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.default.deployment-module=org.apache.openejb.config.WebModule'
+Feb 07, 2016 11:16:52 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.default.deployment-module=org.apache.openejb.config.WebModule'
+Feb 07, 2016 11:16:52 PM org.apache.openejb.config.DeploymentLoader discoverModuleType
+INFO: type for '/c:/users/bojan/desktop/apache-tomee-webprofile-1.5.1%20-%20osa/lib' was not found, defaulting to WebModule
+Feb 07, 2016 11:16:52 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\Users\BOJAN\Desktop\apache-tomee-webprofile-1.5.1 - OSA\webapps\Project
+Feb 07, 2016 11:16:53 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb LanguageDaoBean: EjbDeployment(deployment-id=LanguageDaoBean)
+Feb 07, 2016 11:16:53 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb EbookDaoBean: EjbDeployment(deployment-id=EbookDaoBean)
+Feb 07, 2016 11:16:53 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb UserDaoBean: EjbDeployment(deployment-id=UserDaoBean)
+Feb 07, 2016 11:16:53 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb CategoryDaoBean: EjbDeployment(deployment-id=CategoryDaoBean)
+Feb 07, 2016 11:16:53 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb InitBean: EjbDeployment(deployment-id=InitBean)
+Feb 07, 2016 11:16:53 PM org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=Project, provider=org.apache.openjpa.persistence.PersistenceProviderImpl)
+Feb 07, 2016 11:16:53 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit Project <jta-data-source> to Resource ID 'MySqlDatabase' from 'MySQLDatabase'
+Feb 07, 2016 11:16:53 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit Project <non-jta-data-source> to Resource ID 'MySqlDatabaseNonJta' from 'null'
+Feb 07, 2016 11:16:53 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\Users\BOJAN\Desktop\apache-tomee-webprofile-1.5.1 - OSA\webapps\Project" loaded.
+Feb 07, 2016 11:16:53 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\Users\BOJAN\Desktop\apache-tomee-webprofile-1.5.1 - OSA\webapps\Project
+Feb 07, 2016 11:16:53 PM org.apache.openejb.assembler.classic.PersistenceBuilder createEntityManagerFactory
+INFO: PersistenceUnit(name=Project, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 15ms
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=LanguageDaoBeanLocal) --> Ejb(deployment-id=LanguageDaoBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/Project/Project/LanguageDaoBean!rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.session.LanguageDaoLocal) --> Ejb(deployment-id=LanguageDaoBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/Project/Project/LanguageDaoBean) --> Ejb(deployment-id=LanguageDaoBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=EbookDaoBeanLocal) --> Ejb(deployment-id=EbookDaoBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/Project/Project/EbookDaoBean!rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.session.EbookDaoLocal) --> Ejb(deployment-id=EbookDaoBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/Project/Project/EbookDaoBean) --> Ejb(deployment-id=EbookDaoBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=UserDaoBeanLocal) --> Ejb(deployment-id=UserDaoBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/Project/Project/UserDaoBean!rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.session.UserDaoLocal) --> Ejb(deployment-id=UserDaoBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/Project/Project/UserDaoBean) --> Ejb(deployment-id=UserDaoBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=CategoryDaoBeanLocal) --> Ejb(deployment-id=CategoryDaoBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/Project/Project/CategoryDaoBean!rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.session.CategoryDaoLocal) --> Ejb(deployment-id=CategoryDaoBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/Project/Project/CategoryDaoBean) --> Ejb(deployment-id=CategoryDaoBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=InitBeanRemote) --> Ejb(deployment-id=InitBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/Project/Project/InitBean!rs.ac.uns.ftn.informatika.RS13.IspitniProjekat.server.session.Init) --> Ejb(deployment-id=InitBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/Project/Project/InitBean) --> Ejb(deployment-id=InitBean)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance() org.apache.openejb.cdi.ThreadSingletonServiceImpl@33b37288
+Feb 07, 2016 11:16:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Feb 07, 2016 11:16:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Feb 07, 2016 11:16:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Feb 07, 2016 11:16:54 PM org.apache.openejb.cdi.BeansDeployer validateInjectionPoints
+INFO: All injection points are validated successfully.
+Feb 07, 2016 11:16:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 14 ms.
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=InitBean, ejb-name=InitBean, container=My Stateless Container)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=UserDaoBean, ejb-name=UserDaoBean, container=My Stateless Container)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=CategoryDaoBean, ejb-name=CategoryDaoBean, container=My Stateless Container)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=EbookDaoBean, ejb-name=EbookDaoBean, container=My Stateless Container)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=LanguageDaoBean, ejb-name=LanguageDaoBean, container=My Stateless Container)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=InitBean, ejb-name=InitBean, container=My Stateless Container)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=UserDaoBean, ejb-name=UserDaoBean, container=My Stateless Container)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=CategoryDaoBean, ejb-name=CategoryDaoBean, container=My Stateless Container)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=EbookDaoBean, ejb-name=EbookDaoBean, container=My Stateless Container)
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=LanguageDaoBean, ejb-name=LanguageDaoBean, container=My Stateless Container)
+Feb 07, 2016 11:16:54 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: -------------------------
+TomcatWebAppBuilder.init /Project
+Feb 07, 2016 11:16:54 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance() org.apache.openejb.cdi.ThreadSingletonServiceImpl@33b37288
+Feb 07, 2016 11:16:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Feb 07, 2016 11:16:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Feb 07, 2016 11:16:54 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Feb 07, 2016 11:16:54 PM org.apache.openejb.cdi.BeansDeployer validateInjectionPoints
+INFO: All injection points are validated successfully.
+Feb 07, 2016 11:16:54 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 4 ms.
+Feb 07, 2016 11:16:54 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\Users\BOJAN\Desktop\apache-tomee-webprofile-1.5.1 - OSA\webapps\Project)

@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+body{
+	background-image: url('http://photos.up-wallpaper.com/images253/325u2bdxddp.jpg');
+	
+}
+
+#odjava{
+	width: 10%;
+	color: black;
+	text-decoration: none;
+}
+
+#odjava:hover{
+	color: teal;
+}
+
+#formaZaRegistraciju{
+	margin: 0 auto;
+	width: 70%;
+	background: white;
+	
+}
+
+#formaTabela{
+	margin: 0 auto;
+	
+}
+
+#formaTabela tr{
+	margin-top: 5px;
+}
+
+#formaTabela tr td{
+	padding: 5px;
+	color: teal;
+	float: left;
+}
+
+
+#formaTabela tr p{
+	margin-right: 10px;
+}
+
+#registrujSe{
+	float:right;
+	font-family: cursive;
+	color: teal;
+	height: 40px;
+}
+
+#registrujSe:hover{
+	cursor: pointer;
+	background-color: aqua;
+}
+
+
+#listaKorisnika{
+	font-family: sans-serif;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 60px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#listaTable{
+	width: 100%;
+	padding: 10px;
+}
+
+#listaTable td{
+	padding-left: 15px;
+	border-right: thin;
+	border-right-style: solid;
+	border-right-color: gray;
+	
+	border-bottom: thin;
+	border-bottom-style: solid;
+	border-right-color: gray;
+}
+
+

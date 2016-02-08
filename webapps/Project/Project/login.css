@@ -1,0 +1,23 @@
+
+
+
+body{
+
+
+	background-image: url('http://www.walldevil.com/wallpapers/w02/767326-death-star-minimalistic-simple-background-star-wars.jpg') ;    
+    	}
+#LogInTable{
+	margin:7% auto;
+	padding:10px;
+	background:black;
+}
+
+input{
+	margin:2px 10px;
+}
+
+h2{
+	margin:5% auto;
+	text-align:center;
+	
+}

@@ -1,0 +1,216 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+body{
+
+	background-image: url('http://www.walldevil.com/wallpapers/w02/767326-death-star-minimalistic-simple-background-star-wars.jpg');
+	
+    }
+   
+   
+    
+
+#header{
+	width: 80%;
+	margin: 0 auto;
+	height: 150px;
+	background-color: white;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#headerUp{
+	width: 100%;
+	height: 100px;
+	background: black;
+	}
+	
+#naslov{
+	width: 49%;
+}
+
+#naslov h1{
+	font-size: 48px;
+	color: yellow;
+	text-align: right;
+	padding-right:  30px;
+}
+
+#logovanje{
+	float: right;
+	width: 51%;
+	margin-top: -35px;
+}
+
+#navigacija{
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+#navigacijaTable{
+	width: 100%;
+	
+}
+
+
+#navigacija td{
+	width: 15%;
+	height: 40px;
+	background-color: yellow;
+	font-size: 20px;
+	border-radius: 5px;
+	text-align: center;
+	border: 2px solid highlight;
+}
+
+#navigacija td a{
+	text-decoration: none;
+	color: black;
+}
+
+.tdi{
+	text-decoration: none;
+	color:red;
+}
+#navigacija td li {
+	list-style:none;
+	text-decoration: none;
+	color: white;
+}
+
+#navigacija td a:hover{
+	color: highlight;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+	
+#container{
+	width:80%;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin: 0 auto;
+	margin-top: 20px;
+	
+}
+
+#container img{
+	width: 100%;
+	margin: 0 auto;
+	height: 450px;
+}
+
+#footer{
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-top: dotted;
+	border-top-style: solid;
+	border-top-color: yellow;
+}
+
+#footer p{
+	text-align: center;
+	color: yellow;
+	text-shadow: 1px 1px #000033;
+}
+
+
+#submit:hover{
+	cursor: pointer;
+	background-color: gray;
+	color: aqua;
+
+}
+
+#adminUl{
+	padding-right: 2px;
+}
+
+#buttons{
+	float:right;
+	width:135px;
+	text-align: left;
+}
+
+#buttonsAdmin{
+	float: left;
+}
+
+#clockbox{
+	float: right;
+	margin-top: -70px;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+#welcome{
+	clear:both;
+	color:yellow;
+	float:right;
+	font-size:20px;
+}
+
+#adminNameSpan{
+	color: highlight;
+}
+
+.aClass:hover{
+	font-size: 14px;
+}
+
+.aClass{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	font-size: 12px;
+}
+ul li{
+	padding-top: 4px;
+	list-style-type: none;
+}
+
+.aClass:hover{
+	color: highlight;
+}
+
+#odjava{
+	color: yellow;
+	font-size: 20px;
+	float: right;
+	font-size:20px;
+	text-decoration: none;
+	clear:both;
+	
+}
+
+#odjava:hover{
+	color: highlight;
+}
+
+#printName{
+	color: #c0c0c0;
+    font-size: 17px;
+    float: right;
+    margin: inherit;
+    padding: inherit;
+	
+}
+
+#printNameP{
+	color: #fff;
+    font-size: 18px;
+	
+}
+

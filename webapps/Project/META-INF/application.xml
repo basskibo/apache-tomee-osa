@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+    <display-name>Project</display-name>
+    
+    <module>
+        <web>
+            <web-uri>Project.war</web-uri>
+            <context-root>/Project</context-root>
+        </web>
+    </module>
+
+    <module>
+        <ejb>Project.jar</ejb>
+    </module>
+</application>

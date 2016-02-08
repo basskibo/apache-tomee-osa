@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1355085191226
+Build-Jdk: 1.6.0_37
+Built-By: jlmonteiro
+Bundle-Description: Apache OpenEJB is an open source, modular, configura
+ ble and extendable EJB Container System and EJB Server.
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache OpenEJB :: TomEE :: Webapp
+Bundle-SymbolicName: org.apache.openejb.tomee-webapp
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.5.1
+Created-By: Apache Maven Bundle Plugin
+Implementation-Title: OpenEJB :: TomEE :: Webapp
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache.openejb
+Implementation-Version: 1.5.1
+Import-Package: com.google.gson;version="[2.1,3)",com.google.gson.reflec
+ t;version="[2.1,3)",javax.naming,javax.script,javax.servlet,javax.servl
+ et.http,javax.xml.bind.annotation,org.apache.catalina.websocket,org.apa
+ che.commons.lang3;version="[3.1,4)",org.apache.openejb;version="[4.5,5)
+ ",org.apache.openejb.assembler.util;version="[4.5,5)",org.apache.openej
+ b.loader;version="[4.5,5)",org.apache.openejb.server;version="[4.5,5)",
+ org.apache.openejb.spi;version="[4.5,5)",org.apache.openejb.util;versio
+ n="[4.5,5)",org.apache.tomee.installer
+Specification-Title: OpenEJB :: TomEE :: Webapp
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 1.5.1
+Tool: Bnd-1.50.0

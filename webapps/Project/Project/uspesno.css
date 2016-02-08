@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+body{
+	background-color: silver;
+}
+
+#container{
+	text-align: center;
+	background-color: white;
+	width: 67%;
+	margin: 0 auto;
+}
+
+#container img{
+	width: 100%;
+}
+
+#container p{
+	font-size: 44px;
+	color: teal;
+	font-family: serif;
+	padding-bottom: 10px;
+}
+
